@@ -1,10 +1,4 @@
-Here’s a clean and minimal set of files for your **Conditional VAE on MNIST**:
 
----
-
-### ✅ `README.md`
-
-````md
 # Conditional Variational Autoencoder (CVAE) on MNIST
 
 This project trains a Conditional Variational Autoencoder (CVAE) to generate handwritten digits from the MNIST dataset, conditioned on class labels.
@@ -144,12 +138,5 @@ for d in range(10):
     plt.suptitle(f"Generated Samples for Digit {d}")
     plt.tight_layout()
     plt.show()
+
 ```
-
----
-
-### ✅ Suggested (optional) file: `cvae_model.py`
-
-To keep `train.py` and `app.py` clean, place your model code in `cvae_model.py`.
-
-Would you like me to extract that from your current code and format it properly?
